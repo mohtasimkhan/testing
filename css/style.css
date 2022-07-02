@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,400&family=Splash&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    background: #fafafa;
+}
+.container{
+    width: 1150px;
+    margin: auto;
+}
+.logo{
+    flex-basis: 9%;
+    font-family: 'Splash', cursive;
+    text-align: center;
+}
+.logo h2 span{
+    display: block;
+}
+nav{
+    flex-basis: 91%;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+ul li{
+    display: block;
+    padding: 3px;
+    font-size: 15px;
+}
+ul li a{text-decoration: none;color: #333;text-transform: uppercase;display: block;padding: 0px;border: 1px solid #477bf100;display: block;padding: 4px 13px;border-radius: 35px;}
+ul li a:hover{
+    color: #477bf1;
+    transition-duration: 0.6s;
+    border: 1px solid #477bf1;
+    display: block;
+    padding: 4px 13px;
+    border-radius: 35px;
+}
+.flex{
+    display: flex;
+}
+.flex-center-align{
+    align-items: center;
+}
+
+.highlight {
+   
+    border: 1px solid #477bf1;
+    color: #477bf1;
+    padding: 4px 13px;
+    border-radius: 35px;
+    color: white;
+    background: #477bf1;
+}
+
+.highlight:hover {
+    color: white;
+    border: 1px solid #477bf1;
+    background: white;
+    color: #477bf1;
+    padding: 4px 13px;
+    border-radius: 35px;
+}
+
+.banner-section{
+    background-image: url(../images/banner.jpg);
+    text-align: center;
+    margin: 0px;
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000000de;
+    background-position: top;
+    background-blend-mode: soft-light;
+}
+.banner-section h1{
+    color: white;
+    text-transform: capitalize;
+    font-size: 50px;
+}
+.banner-section p{
+    color: white;
+    font-weight: 100;
+}
+
+.container-2{
+    width: 800px;
+    margin: auto;
+    
+}
+.banner {
+    padding: 181px 0px;
+}
+.banner a {
+    margin-top: 47px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 13px;
+    color: white;
+    border: 1px solid #477bf1;
+    background: #477bf1;
+    padding: 9px 15px;
+    border-radius: 35px;
+    text-decoration: none;
+}
+
+.banner a:hover {
+    margin-top: 47px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 9px 15px;
+    font-size: 13px;
+    transition-duration: 2s;
+    color: #477bf1;
+    background: white;
+}
+
+.personal{padding-top: 170px;padding-bottom: 55px;}
+.col-40{
+    flex-basis: 40%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-60{
+    flex-basis: 60%;
+}
+.col-40 h1{
+    text-transform: uppercase;
+    color: #477bf1;
+    letter-spacing: 2px;
+    margin-left: 34px;
+}
+.col-60 p{}
+.vertical{
+    width: 2px;
+    color: black;
+    height: 296px;
+    background-color: #477bf1;
+    margin-left: 10px;
+}
+
+.academic{
+    padding-bottom: 99px;
+}
+.research{
+    padding-top: 49px;
+}
+.research h1{
+    text-transform: uppercase;
+    color: #477bf1;
+    margin-bottom: 4px;
+}
+.research p{
+    margin-top: 16px;
+}
+.horizontal{
+    height: 1px;
+    display: block;
+    background: #477bf1;
+}
+
+
+@media (max-width: 500px ){
+    .container {
+        width: 100%;
+    }
+    .flex {
+        display: block;
+    }
+    .logo h2{
+        font-size: 10px;
+    }
+    nav {
+        width: 100%;
+        text-align: center;
+        margin:  10px 0px;
+    }
+
+    ul li{
+        font-size: 8px;
+        padding: 0;
+        
+    }
+    ul li a{
+        padding:  0 4px;
+    }
+    ul{
+        justify-content: center;
+    }
+    .highlight {
+   
+border: 1px solid #477bf1;
+   
+color: #477bf1;
+   
+border-radius: 35px;
+   
+color: white;
+   
+background: #477bf1;
+   
+padding: 0px 2px;
+}
+.container-2{
+    width: 100%;
+    padding: 19px;
+}
+    .banner-section h1{
+    color: white;
+    text-transform: capitalize;
+    font-size: 21px;
+}
+.banner-section p{
+    color: white;
+    font-weight: 100;
+    font-size: 10px;
+}
+
+
+
+.banner{
+    padding:  37px 0;
+}
+
+
+.banner a {
+    margin-top: 30px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 8px;
+    color: white;
+    border: 1px solid #477bf1;
+    background: #477bf1;
+    padding: 2px 10px;
+    border-radius: 35px;
+    text-decoration: none;
+}
+
+
+}
